@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-app.listen(4000, () => console.log('Our API running on 4000'))
+app.listen(process.env.PORT, () => console.log('Our API running on 4000'))
 
 const handleWriteFile = () => {
   const dataJson = JSON.stringify(data) // converting to back to JSON
