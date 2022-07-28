@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "push": "git push origin main"
+    "push": "git push origin main",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Boca Code - JS",
